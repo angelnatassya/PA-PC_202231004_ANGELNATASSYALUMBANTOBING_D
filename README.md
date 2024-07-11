@@ -30,6 +30,7 @@ import matplotlib.pyplot as plt
 import numpy as np 
 ```
 Dokumentasi :
+
 ![[image.png](https://github.com/angelnatassya/uaspcdimages/commit/5a782e529352529b6a618173e3b7a239046bc072)
 ](https://github.com/angelnatassya/uaspcdimages/blob/main/image.png)
 1. Menampilkan Citra Asli
@@ -44,11 +45,17 @@ plt.title("Citra Asli")
 plt.axis('off')
 plt.show()
 ```
-Penjelasan :
+Dokumentasi :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20183856.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20183856.png)Penjelasan :
 - image_path = 'pict.jpg': Menyimpan path ke gambar yang ingin dibaca. 
 - image = cv2.imread(image_path): Membaca image dari path yang telah ditentukan. OpenCV membaca image dalam format BGR (Blue, Green, Red).
-- image = cv2.cvtColor(gambar, cv2.COLOR_BGR2RGB): Mengkonversi gambar dari format BGR (default OpenCV) ke format RGB (Red, Green, Blue) yang lebih umum digunakan dalam visualisasi. 
-2. Gambar Rotasi
+- image = cv2.cvtColor(gambar, cv2.COLOR_BGR2RGB): Mengkonversi gambar dari format BGR (default OpenCV) ke format RGB (Red, Green, Blue) yang lebih umum digunakan dalam visualisasi.
+Output :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20184000.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20184000.png)2. Gambar Rotasi
 ``` bash
 def rotate_image(image, angle):
     (h, w) = image.shape[:2]
