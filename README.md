@@ -28,6 +28,8 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np 
 ```
+Dokumentasi :
+[!image.png](https://github.com/angelnatassya/uaspcdimages/commit/5a782e529352529b6a618173e3b7a239046bc072)
 1. Menampilkan Citra Asli
 ``` bash
 image_path = 'pict.jpg'
