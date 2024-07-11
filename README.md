@@ -16,6 +16,10 @@
 
  Menggunakan aplikasi Jupiter Notebook pada Anaconda Navigator.
 
+## Gambar dan Lokasi
+Gambar : pict.jpg
+Lokasi : photo_2024-07-11_18-19-41.jpg
+
 ## Source Code dan Penjelasan 
  Library yang digunakan :
  ``` bash
