@@ -47,6 +47,8 @@ plt.title("Citra Asli")
 plt.axis('off')
 plt.show()
 ```
+
+
 Dokumentasi :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20183856.png
@@ -80,6 +82,7 @@ plt.imshow(rotated_image)
 plt.title("After Rotated")
 plt.axis('on')
 ```
+
 Dokumentasi :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20rotasi.png
@@ -114,6 +117,8 @@ plt.imshow(resized_image)
 plt.title("After Resized")
 plt.axis('on')
 ```
+
+
 Dokumentasi :
 
 
@@ -152,6 +157,8 @@ plt.imshow(cropped_image)
 plt.title("After Cropped")
 plt.axis('on')
 ```
+
+
 Dokumentasi :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20cropped.png
@@ -190,6 +197,8 @@ plt.imshow(flipped_image)
 plt.title("After Flipped")
 plt.axis('on')
 ```
+
+
 Dokumentasi :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20fliiped.png
@@ -232,6 +241,8 @@ plt.axis('on')
 plt.tight_layout()
 plt.show()
 ```
+
+
 Dokumentasi :
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20translated.png
 ](https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20translated.png)
@@ -293,6 +304,8 @@ axs[1, 2].axis('on')
 plt.tight_layout()
 plt.show()
 ```
+
+
 Dokumentasi :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/show%20all.png
