@@ -6,15 +6,43 @@
 
 
 
-
 ## Authors
 
 - [@angelnatassya](https://www.github.com/angelnatassya)
 
+## Geometrix Citra
+Geometrix citra adalah cabang dalam pengolahan citra digital yang berkaitan dengan transformasi geometris atau perubahan bentuk dan orientasi dari objek dalam citra. Tujuan utama dari geometri citra adalah untuk mengubah tampilan atau representasi geometris dari suatu objek dalam citra, baik secara lokal maupun global, tanpa mengubah informasi konten atau struktur esensial dari objek tersebut.
+
+1. Konsep Dasar Geometri Citra:
+     - Transformasi Geometris: Melibatkan perubahan posisi, rotasi, skala, dan pergeseran objek dalam citra. Transformasi ini dapat dilakukan untuk menyesuaikan citra dengan sistem koordinat lain atau untuk mengoreksi distorsi geometris        yang disebabkan oleh faktor fisik seperti perspektif.
+     
+     - Penggabungan Citra (Image Warping): Proses mengubah bentuk atau orientasi objek dalam citra menggunakan transformasi yang sesuai. Contoh umum termasuk transformasi affine untuk memperbaiki distorsi perspektif atau transformasi           non-linear untuk mengoreksi distorsi lensa.
+     
+     - Registrasi Citra (Image Registration): Proses menyesuaikan dan memadukan dua atau lebih citra dari sudut pandang yang berbeda atau dengan resolusi yang berbeda. Ini dapat melibatkan transformasi geometris untuk mencocokkan fitur         atau objek yang serupa di antara citra-citra tersebut.
+  
+2. Aplikasi Geometrix Citra:
+    - Pemetaan dan Navigasi: Dalam pemetaan digital dan sistem navigasi, geometri citra digunakan untuk mengoreksi distorsi dan mengintegrasikan citra dari berbagai sumber.
+      
+    - Augmented Reality (AR): Di AR, geometri citra digunakan untuk menyatukan elemen virtual dengan citra dari dunia nyata, membutuhkan koordinasi dan transformasi yang presisi.
+      
+    - Rekonstruksi 3D: Dalam rekonstruksi citra untuk mendapatkan model 3D dari objek atau lingkungan, geometri citra memainkan peran penting dalam mengatur perspektif dan geometri objek.
+      
+    - Koreksi dan Enhance Citra: Geometri citra digunakan untuk koreksi distorsi optik dalam fotografi digital atau untuk meningkatkan representasi visual yang lebih akurat dari objek dalam citra.
+
+3. Teknik dan Algoritma:
+   - Transformasi Affine: Menerapkan rotasi, translasi, dan skala terhadap objek dalam citra.
+    
+   - Transformasi Perspektif: Mengoreksi distorsi perspektif untuk menciptakan tampilan datar atau bidang dari objek yang difoto dari sudut pandang yang miring.
+    
+   - Warping Non-linear: Menggunakan fungsi non-linear untuk mengubah bentuk objek dalam citra, seperti dalam transformasi Morfologi Matematis.
+    
+   - Registrasi Multi-modal: Menggunakan teknik seperti transformasi Fourier untuk mencocokkan dan memadukan citra dari berbagai modalitas atau waktu yang berbeda.
 
 ## Aplikasi
 
- Menggunakan aplikasi Jupiter Notebook pada Anaconda Navigator.
+Menggunakan aplikasi Jupiter Notebook pada Anaconda Navigator.
+
+## Project UAS
 
 ## Gambar yang Diimport
 ![[pict.jpg](https://github.com/angelnatassya/uaspcdimages/commit/89cb69b44386ed06f7da8ce197c2270545cdf93f)
@@ -347,3 +375,28 @@ Output :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/display%20all.png
 ](https://github.com/angelnatassya/uaspcdimages/blob/main/display%20all.png)
+
+
+## Jurnal dan Referensi
+
+Jurnal Terkait :
+
+1. IEEE Transactions on Image Processing - Jurnal ini memuat berbagai penelitian tentang pemrosesan citra, termasuk topik tentang transformasi geometris dan pengolahan geometris citra.
+
+2. Computer Vision and Image Understanding - Fokus utama jurnal ini adalah visi komputer dan pemahaman citra, mencakup penelitian dalam geometri citra untuk registrasi, rekonstruksi 3D, dan aplikasi lainnya.
+
+3. Pattern Recognition - Jurnal ini mempublikasikan penelitian dalam pengenalan pola dan analisis citra, termasuk teknik geometri citra untuk ekstraksi fitur dan pengolahan citra.
+
+4. International Journal of Computer Vision - Menyajikan penelitian terkait visi komputer, termasuk pemrosesan geometris citra untuk pencocokan citra, segmentasi, dan rekonstruksi 3D.
+
+5. Journal of Mathematical Imaging and Vision - Fokus jurnal ini adalah pada pemodelan matematis dan pengolahan citra, termasuk transformasi geometris dan analisis geometris citra.
+
+Referensi :
+
+1. Rafael C. Gonzalez, Richard E. Woods. "Digital Image Processing". Prentice Hall, 3rd Edition, 2008.
+
+   Buku ini adalah referensi klasik dalam pengolahan citra digital, mencakup dasar-dasar dan teknik-teknik transformasi geometris dalam citra.
+
+2. David A. Forsyth, Jean Ponce. "Computer Vision: A Modern Approach". Prentice Hall, 2nd Edition, 2011.
+
+   Buku ini memberikan pembahasan komprehensif mengenai visi komputer, termasuk pengolahan geometris citra dan teknik-teknik terkait.
