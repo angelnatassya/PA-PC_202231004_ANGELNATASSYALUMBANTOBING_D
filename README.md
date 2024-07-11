@@ -101,6 +101,7 @@ Penjelasan :
 
 
 Output :
+
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/output%20rotasi.png
 ](https://github.com/angelnatassya/uaspcdimages/blob/main/output%20rotasi.png)
 
@@ -117,7 +118,6 @@ plt.imshow(resized_image)
 plt.title("After Resized")
 plt.axis('on')
 ```
-
 
 Dokumentasi :
 
@@ -244,6 +244,7 @@ plt.show()
 
 
 Dokumentasi :
+
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20translated.png
 ](https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20translated.png)
 
