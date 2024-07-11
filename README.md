@@ -48,14 +48,16 @@ plt.show()
 Dokumentasi :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20183856.png
-](https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20183856.png)Penjelasan :
+](https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20183856.png)
+Penjelasan :
 - image_path = 'pict.jpg': Menyimpan path ke gambar yang ingin dibaca. 
 - image = cv2.imread(image_path): Membaca image dari path yang telah ditentukan. OpenCV membaca image dalam format BGR (Blue, Green, Red).
 - image = cv2.cvtColor(gambar, cv2.COLOR_BGR2RGB): Mengkonversi gambar dari format BGR (default OpenCV) ke format RGB (Red, Green, Blue) yang lebih umum digunakan dalam visualisasi.
 Output :
 
 ![https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20184000.png
-](https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20184000.png)2. Gambar Rotasi
+](https://github.com/angelnatassya/uaspcdimages/blob/main/Screenshot%202024-07-11%20184000.png)
+2. Gambar Rotasi
 ``` bash
 def rotate_image(image, angle):
     (h, w) = image.shape[:2]
@@ -70,6 +72,10 @@ plt.imshow(rotated_image)
 plt.title("After Rotated")
 plt.axis('on')
 ```
+Dokumentasi :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20rotasi.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20rotasi.png)
 Penjelasan :
 - image.shape memberikan dimensi gambar dalam bentuk (height, width, channels). image.shape[:2] mengambil dua nilai pertama yaitu tinggi (h) dan lebar (w) gambar.
 - center adalah titik pusat rotasi gambar. Ini dihitung sebagai setengah dari lebar dan tinggi gambar.
@@ -79,6 +85,9 @@ Penjelasan :
 - scale: Skala gambar setelah rotasi. 1.0 berarti ukuran gambar tetap.
 - cv2.warpAffine(image, M, (width, height)) menerapkan transformasi affine yang didefinisikan oleh matriks M pada gambar image.
 - (w, h): Ukuran output gambar yang diputar.
+Output :
+![https://github.com/angelnatassya/uaspcdimages/blob/main/output%20rotasi.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/output%20rotasi.png)
 3. Resizing Image
 ``` bash
 def resize_image(image, size):
@@ -91,6 +100,10 @@ plt.imshow(resized_image)
 plt.title("After Resized")
 plt.axis('on')
 ```
+Dokumentasi :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20resized.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20resized.png)
 Penjelasan :
 - image: Parameter pertama adalah gambar yang ingin diubah ukurannya.
 - size: Parameter kedua adalah tupel (width, height) yang menentukan ukuran baru gambar setelah resize.
@@ -102,6 +115,10 @@ Penjelasan :
 - plt.title("After Resized"): Menambahkan judul "After Resized" di atas gambar.
 - plt.axis('on'): Menampilkan sumbu koordinat di sekitar gambar.
 - plt.show(): Menampilkan semua elemen plot di jendela grafik.
+Output :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/output%20resized.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/output%20resized.png)
 4. Cropped Image
 ``` bash
 def crop_image(image, start_x, start_y, width, height):
@@ -114,6 +131,10 @@ plt.imshow(cropped_image)
 plt.title("After Cropped")
 plt.axis('on')
 ```
+Dokumentasi :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20cropped.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20cropped.png)
 Penjelasan :
 - image: Parameter pertama adalah gambar yang ingin dipotong.
 - start_x, start_y: Koordinat titik awal (titik kiri atas) dari area yang ingin dipotong.
@@ -126,6 +147,10 @@ Penjelasan :
 - plt.title("After Cropped"): Menambahkan judul "After Cropped" di atas gambar.
 - plt.axis('on'): Menampilkan sumbu koordinat di sekitar gambar.
 - plt.show(): Menampilkan semua elemen plot di jendela grafik.
+Output :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/output%20cropped.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/output%20cropped.png)
 5. Flip Image
 ``` bash
 def flip_image(image):
@@ -138,6 +163,10 @@ plt.imshow(flipped_image)
 plt.title("After Flipped")
 plt.axis('on')
 ```
+Dokumentasi :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20fliiped.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20fliiped.png)
 Penjelasan :
 - image: Parameter pertama adalah gambar yang ingin dibalik.
 - cv2.flip(image, 1): Fungsi dari OpenCV untuk membalik (flip) gambar.
@@ -149,6 +178,10 @@ Penjelasan :
 - plt.title("After Flipped"): Menambahkan judul "After Flipped" di atas gambar.
 - plt.axis('on'): Menampilkan sumbu koordinat di sekitar gambar.
 - plt.show(): Menampilkan semua elemen plot di jendela grafik.
+Output :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/output%20fliiped.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/output%20cropped.png)
 6. Translated Image
 ``` bash
 def translate_image(image, x, y):
@@ -166,6 +199,9 @@ plt.axis('on')
 plt.tight_layout()
 plt.show()
 ```
+Dokumentasi :
+![https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20translated.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/sc%20translated.png)
 Penjelasan :
 - image: Parameter pertama adalah gambar yang ingin diterjemahkan.
 - x, y: Parameter kedua dan ketiga adalah pergeseran dalam koordinat x dan y.
@@ -183,6 +219,10 @@ Penjelasan :
 - plt.axis('on'): Menampilkan sumbu koordinat di sekitar gambar.
 - plt.tight_layout(): Mengatur tata letak plot agar lebih rapi.
 - plt.show(): Menampilkan semua elemen plot di jendela grafik.
+Output :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/output%20translated.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/output%20translated.png)
 7. Show All Images
 ``` bash
 fig, axs = plt.subplots(2, 3, figsize=(15, 10))
@@ -214,6 +254,10 @@ axs[1, 2].axis('on')
 plt.tight_layout()
 plt.show()
 ```
+Dokumentasi :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/show%20all.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/show%20all.png)
 Penjelasan :
 - plt.subplots(2, 3, figsize=(15, 10)): Membuat grid subplot dengan ukuran 2 baris dan 3 kolom dengan ukuran gambar 15x10 inci.
 - axs[0, 0]: Menampilkan gambar asli di subplot pertama (baris 0, kolom 0).
@@ -242,3 +286,7 @@ Penjelasan :
 - axis('on'): Menampilkan sumbu koordinat.
 - tight_layout(): Menyusun ulang tata letak subplot agar lebih rapi.
 - show(): Menampilkan semua elemen plot di jendela grafik.
+Output :
+
+![https://github.com/angelnatassya/uaspcdimages/blob/main/display%20all.png
+](https://github.com/angelnatassya/uaspcdimages/blob/main/display%20all.png)
