@@ -16,9 +16,11 @@
 
  Menggunakan aplikasi Jupiter Notebook pada Anaconda Navigator.
 
-## Gambar dan Lokasi
-Gambar : [pict.jpg](https://github.com/angelnatassya/uaspcdimages/blob/89cb69b44386ed06f7da8ce197c2270545cdf93f/photo_2024-07-11_18-19-41.jpg)
-Lokasi : photo_2024-07-11_18-19-41.jpg
+## Gambar yang Diimport
+[pict.jpg](https://github.com/angelnatassya/uaspcdimages/blob/89cb69b44386ed06f7da8ce197c2270545cdf93f/photo_2024-07-11_18-19-41.jpg)
+
+## Lokasi Pengambilan Gambar
+[photo_2024-07-11_18-19-41.jpg](https://github.com/angelnatassya/uaspcdimages/blob/89cb69b44386ed06f7da8ce197c2270545cdf93f/photo_2024-07-11_18-19-41.jpg)
 
 ## Source Code dan Penjelasan 
  Library yang digunakan :
