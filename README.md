@@ -17,7 +17,7 @@
  Menggunakan aplikasi Jupiter Notebook pada Anaconda Navigator.
 
 ## Gambar yang Diimport
-[![pict.jpg](https://github.com/angelnatassya/uaspcdimages/commit/89cb69b44386ed06f7da8ce197c2270545cdf93f)
+![[pict.jpg](https://github.com/angelnatassya/uaspcdimages/commit/89cb69b44386ed06f7da8ce197c2270545cdf93f)
 ](https://github.com/angelnatassya/uaspcdimages/blob/main/pict.jpg)
 ## Lokasi Pengambilan Gambar
 ![photo_2024-07-11_18-19-41.jpg](https://github.com/angelnatassya/uaspcdimages/blob/89cb69b44386ed06f7da8ce197c2270545cdf93f/photo_2024-07-11_18-19-41.jpg)
@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 import numpy as np 
 ```
 Dokumentasi :
-[[!image.png](https://github.com/angelnatassya/uaspcdimages/commit/5a782e529352529b6a618173e3b7a239046bc072)
+![[image.png](https://github.com/angelnatassya/uaspcdimages/commit/5a782e529352529b6a618173e3b7a239046bc072)
 ](https://github.com/angelnatassya/uaspcdimages/blob/main/image.png)
 1. Menampilkan Citra Asli
 ``` bash
